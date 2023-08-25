@@ -28,37 +28,41 @@ const EmblaCarousel = (props) => {
         <div className="embla__container">
           {slides.map((index) => (
             <div className="embla__slide" key={index}>
-              <div style={{
-                display: "flex",
-                alignItems: "center",
-              }}>
-                <img 
+              <div
                 style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  style={{
                     width: "150px",
                     height: "150px",
                     borderRadius: "50%",
                     objectFit: "cover",
                     margin: "10px",
-
-                }}
-                src={imageByIndexPFP(index)} alt="PFP" />
+                    filter: "grayscale(100%)",
+                  }}
+                  src={imageByIndexPFP(index)}
+                  alt="PFP"
+                />
                 <a
-                style={{
+                  style={{
                     marginLeft: "auto",
                     marginRight: "auto",
                     fontSize: "3rem",
-                    fontWeight: "bold",
                     color: "white",
                     cursor: "pointer",
                     textDecoration: "none",
-
+                    textTransform: "uppercase",
+                    letterSpacing: "0.1rem",
                     
-
-                }}
-                href={linksByIndex(index)}
-                target="_blank"
-                >{nameByIndex(index)}</a>
-         
+                  }}
+                  href={linksByIndex(index)}
+                  target="_blank"
+                >
+                  {nameByIndex(index)}
+                </a>
               </div>
               <img
                 className="embla__slide__img"
