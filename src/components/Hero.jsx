@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/public/logo2.svg";
+import logo from "../logo2.svg";
 import "../css/buttons.css";
 
 function Hero() {

@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yellowtail&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yellowtail&display=swap');
 
-
-html,body{
+html,
+body {
   height: 100%;
 }
 
-body, #root{
+body,
+#root {
   height: 100%;
   padding: 0;
   margin: 0;
