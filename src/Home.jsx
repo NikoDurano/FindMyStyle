@@ -211,7 +211,6 @@ function Home() {
             gridArea: "HomeTattooistProfileCon",
 
             padding: "20px",
-            marginTop: "50px",
             overflowY: "auto",
             flexGrow: "1",
           }}
