@@ -10,6 +10,9 @@ function Home() {
   const [selectedArtist, setSelectedArtist] = useState(null);
   const [popup, setPopup] = useState(false);
 
+  const [showFilter, setShowFilter] = useState(false);
+  console.log(showFilter);
+
   // Function to handle tag selection
   const handleTagSelection = (tag) => {
     if (selectedTags.includes(tag)) {
@@ -63,15 +66,15 @@ function Home() {
   // Inside your component, you can call this function when an artist is clicked
   const artistClick = (id) => {
     setTimeout(() => {
-    const clickedArtist = Tattooist.find((artist) => artist.id === id);
-    if (clickedArtist) {
-      setSelectedArtist(clickedArtist);
-      const artistWork = getTattooistWork(id);
-      setPopup(true);
-      // Do something with the artist's work array
-      console.log(artistWork);
-    }
-  }, 200); // Adjust the delay time to match your transition duration
+      const clickedArtist = Tattooist.find((artist) => artist.id === id);
+      if (clickedArtist) {
+        setSelectedArtist(clickedArtist);
+        const artistWork = getTattooistWork(id);
+        setPopup(true);
+        // Do something with the artist's work array
+        console.log(artistWork);
+      }
+    }, 200); // Adjust the delay time to match your transition duration
   };
 
   const closePopup = () => {
@@ -81,6 +84,28 @@ function Home() {
     }, 500); // Adjust the delay time to match your transition duration
   };
 
+  const toggleFilter = () => {
+    setShowFilter(!showFilter);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 830) {
+        setShowFilter(true);
+      } else {
+        setShowFilter(false);
+      }
+    };
+
+    // Add event listener to window resize
+    window.addEventListener("resize", handleResize);
+
+    // Initialize the filter visibility on component mount
+    handleResize();
+
+    // Clean up the event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
@@ -107,26 +132,58 @@ function Home() {
       >
         <Nav />
 
+        <div
+          className="HomeFilterSandwich"
+          style={{
+            display: "none",
+            justifyContent: "center",
+            alignItems: "center",
+
+            // border: "1px solid red",
+            marginTop: "20px",
+
+            textAlign: "center",
+            fontSize: "3rem",
+            color: "white",
+            textTransform: "uppercase",
+            cursor: "pointer",
+
+            gridArea: "HomeTagsFilter",
+          }}
+          onClick={toggleFilter}
+        >
+          Filter By Tags
+        </div>
+
         <aside
           className="HomeTagsFilter"
           style={{
             gridArea: "HomeTagsFilter",
+
             overflowY: "auto",
+            display: "flex",
+            opacity: showFilter ? "1" : "0",
+            height: showFilter ? "100%" : "0%",
+
+            flexDirection: "column",
+
+            transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
 
             padding: "20px",
             fontSize: "1.5rem",
             color: "white",
           }}
         >
-          <div
+          {/* <div
             style={{
               fontSize: "3rem",
               textAlign: "center",
               textTransform: "uppercase",
+
             }}
           >
             Filter by Tags
-          </div>
+          </div> */}
           <ul style={{}}>
             {allTags.map((tag) => (
               <li key={tag}>
@@ -156,6 +213,7 @@ function Home() {
             padding: "20px",
             marginTop: "50px",
             overflowY: "auto",
+            flexGrow: "1",
           }}
         >
           {sortedFilteredTattooists.length === 0 ? (
@@ -202,7 +260,6 @@ function Home() {
                   target="_blank"
                   onClick={artistClick.bind(this, tattooist.id)}
                 >
-
                   <div
                     className="HomeTattooistPFP"
                     style={{
@@ -244,18 +301,12 @@ function Home() {
             position: "absolute",
 
             right: "0",
-            
-            
-            
-       
 
             width: popup ? "100%" : "0%",
             height: popup ? "100%" : "0%",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-
-           
 
             opacity: popup ? "1" : "0",
             zIndex: popup ? "2" : "-1",
@@ -282,12 +333,10 @@ function Home() {
 
                   zIndex: "1",
                 }}
-
               ></div>
 
               <div
                 className="HomePopupCon"
-     
                 style={{
                   display: "grid",
                   gridTemplateColumns: "1fr 1fr",
@@ -326,7 +375,6 @@ function Home() {
                   target="_blank"
                   onClick={(e) => {
                     e.stopPropagation();
-
                   }}
                 >
                   <div
@@ -372,13 +420,10 @@ function Home() {
                       margin: "20px",
                       padding: "10px",
                       position: "relative",
-
                     }}
                   >
                     {selectedArtist.name}
                     <span></span>
-                    
-                    
                   </div>
                 </a>
 

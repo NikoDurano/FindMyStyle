@@ -1,86 +1,85 @@
 @media (max-width: 1450px) {
-    .main {
-        flex-direction: column;
-        background-position: center !important;
-        height: unset !important;
-        background-size: cover !important;
-    }
+  .main {
+    flex-direction: column;
+    background-position: center !important;
+    height: unset !important;
+    background-size: cover !important;
+  }
 
-    .sandbox {
-        position: unset !important;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        overflow: hidden;
-    }
+  .sandbox {
+    position: unset !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+  }
 
-    .mainCon {
-        padding: 50px !important;
-        margin: 0px !important;
-        width: unset !important;
-    }
+  .mainCon {
+    padding: 50px !important;
+    margin: 0px !important;
+    width: unset !important;
+  }
 
-    .sandboxholder {
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 60%, #212325 100%) !important;
-        width: 100% !important;
-    }
+  .sandboxholder {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(0, 0, 0, 1) 60%,
+      #212325 100%
+    ) !important;
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 830px) {
-    .HomeMainCon {
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 100px 200px 1fr !important;
-        grid-template-areas:
-            "HomeNav"
-            "HomeTagsFilter"
-            "HomeTattooistProfileCon" !important;
-    }
+  .HomeMainCon {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 
-    .HomeTagsFilter {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
+  .HomeFilterSandwich {
+    display: flex !important;
+  }
 
+  .HomeTagsFilter {
+    /* display: flex !important; */
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 
-    }
+  .HomeTattooistProfileCon {
+    justify-content: center !important;
+    margin-top: unset !important;
+    padding: unset !important;
+  }
 
-    
+  .HomePopupName {
+    letter-spacing: 0.9rem !important;
+  }
 
-    .HomeTattooistProfileCon {
-        justify-content: center !important;
-        margin-top: 30px!important;
-    }
-    .HomePopupName{
-        letter-spacing: 0.9rem !important;
-    }
+  .HomePopupMaster {
+    right: unset !important;
+    bottom: 0 !important;
+  }
 
-    .HomePopupMaster {
-        right: unset !important;
-        bottom: 0 !important;
+  .HomePopupCon {
+    right: unset !important;
+    width: unset !important;
+  }
 
-    }
+  .HomePopupBG {
+    background-color: unset !important;
+    overflow-y: auto !important;
+  }
 
-    .HomePopupCon {
-        right: unset !important;
-        width: unset !important;
-
-    }
-
-    .HomePopupBG {
-        background-color: unset !important;
-        overflow-y: auto !important;
-
-    }
-
-    .HomePopupPFP {
-        margin: unset !important;
-    }
-
-
+  .HomePopupPFP {
+    margin: unset !important;
+  }
 }
 
 @media (max-width: 600px) {
-    .mainTitle {
-        margin-right: unset !important;
-    }
+  .mainTitle {
+    margin-right: unset !important;
+  }
 }
