@@ -26,6 +26,59 @@
     }
 }
 
+@media (max-width: 830px) {
+    .HomeMainCon {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 100px 200px 1fr !important;
+        grid-template-areas:
+            "HomeNav"
+            "HomeTagsFilter"
+            "HomeTattooistProfileCon" !important;
+    }
+
+    .HomeTagsFilter {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+
+    }
+
+    
+
+    .HomeTattooistProfileCon {
+        justify-content: center !important;
+        margin-top: 30px!important;
+    }
+    .HomePopupName{
+        letter-spacing: 0.9rem !important;
+    }
+
+    .HomePopupMaster {
+        right: unset !important;
+        bottom: 0 !important;
+
+    }
+
+    .HomePopupCon {
+        right: unset !important;
+        width: unset !important;
+
+    }
+
+    .HomePopupBG {
+        background-color: unset !important;
+        overflow-y: auto !important;
+
+    }
+
+    .HomePopupPFP {
+        margin: unset !important;
+    }
+
+
+}
+
 @media (max-width: 600px) {
     .mainTitle {
         margin-right: unset !important;

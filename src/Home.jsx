@@ -81,6 +81,7 @@ function Home() {
     }, 500); // Adjust the delay time to match your transition duration
   };
 
+
   return (
     <>
       <div
@@ -154,6 +155,7 @@ function Home() {
 
             padding: "20px",
             marginTop: "50px",
+            overflowY: "auto",
           }}
         >
           {sortedFilteredTattooists.length === 0 ? (
@@ -200,6 +202,7 @@ function Home() {
                   target="_blank"
                   onClick={artistClick.bind(this, tattooist.id)}
                 >
+
                   <div
                     className="HomeTattooistPFP"
                     style={{
@@ -260,6 +263,9 @@ function Home() {
 
             transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
           }}
+          onClick={() => {
+            closePopup();
+          }}
         >
           {selectedArtist && (
             <>
@@ -276,13 +282,12 @@ function Home() {
 
                   zIndex: "1",
                 }}
-                onClick={() => {
-                  closePopup();
-                }}
+
               ></div>
 
               <div
                 className="HomePopupCon"
+     
                 style={{
                   display: "grid",
                   gridTemplateColumns: "1fr 1fr",
@@ -296,6 +301,7 @@ function Home() {
 
                   position: "absolute",
                   zIndex: "1",
+                  overflowY: "auto",
 
                   right: "0",
                   height: "100%",
@@ -305,17 +311,23 @@ function Home() {
                 }}
               >
                 <a
+                  className="HomePopupInfo"
                   style={{
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
                     gridArea: "HomePopupInfo",
                     marginTop: "50px",
+                    height: "100%",
 
                     textDecoration: "none",
                   }}
                   href={selectedArtist.link}
                   target="_blank"
+                  onClick={(e) => {
+                    e.stopPropagation();
+
+                  }}
                 >
                   <div
                     className="HomePopupPFP"
@@ -355,10 +367,18 @@ function Home() {
                       letterSpacing: "1.1rem",
                       textTransform: "uppercase",
 
+                      transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
+
                       margin: "20px",
+                      padding: "10px",
+                      position: "relative",
+
                     }}
                   >
                     {selectedArtist.name}
+                    <span></span>
+                    
+                    
                   </div>
                 </a>
 
