@@ -71,7 +71,7 @@ function Home() {
       // Do something with the artist's work array
       console.log(artistWork);
     }
-  }, 500); // Adjust the delay time to match your transition duration
+  }, 200); // Adjust the delay time to match your transition duration
   };
 
   const closePopup = () => {
@@ -387,7 +387,7 @@ function Home() {
                         style={{
                           width: "200px",
                           height: "200px",
-                          margin: "5px",
+                          margin: "10px",
                         }}
                       />
                     )
