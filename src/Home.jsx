@@ -310,6 +310,8 @@ function Home() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
+                    letterSpacing: "1.1rem",
+                    textTransform: "uppercase",
 
                     margin: "20px",
                   }}
@@ -330,6 +332,7 @@ function Home() {
 
                   padding: "20px",
                   marginTop: "50px",
+                  overflowY: "auto",
                 }}
               >
                 {getTattooistWork(selectedArtist.id).map((workImage, index) => (
@@ -341,6 +344,7 @@ function Home() {
                     style={{
                       width: "200px",
                       height: "200px",
+                      margin: "5px",
                     }}
                   />
                 ))}
