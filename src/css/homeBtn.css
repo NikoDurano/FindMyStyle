@@ -165,3 +165,17 @@ body {
   width: 100%;
   left: 0;
 }
+
+
+.material-symbols-outlined {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+

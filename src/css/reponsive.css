@@ -76,6 +76,10 @@
   .HomePopupPFP {
     margin: unset !important;
   }
+
+  .HomeNone{
+    text-align: center !important;
+  }
 }
 
 @media (max-width: 600px) {

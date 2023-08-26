@@ -11,7 +11,31 @@ function Home() {
   const [popup, setPopup] = useState(false);
 
   const [showFilter, setShowFilter] = useState(false);
-  console.log(showFilter);
+  console.log(selectedTags);
+
+  const [favourites, setFavourites] = useState([]);
+
+  const favouriteArtiest = (id) => {
+    const artistIndex = favourites.indexOf(id);
+    let newFavourites = [];
+
+    if (artistIndex !== -1) {
+      newFavourites = favourites.filter((favouriteId) => favouriteId !== id);
+    } else {
+      newFavourites = [...favourites, id];
+    }
+
+    setFavourites(newFavourites);
+
+    // Update localStorage with the updated newFavourites array
+    localStorage.setItem("favourites", JSON.stringify(newFavourites));
+  };
+
+  useEffect(() => {
+    const storedFavourites =
+      JSON.parse(localStorage.getItem("favourites")) || [];
+    setFavourites(storedFavourites);
+  }, []);
 
   // Function to handle tag selection
   const handleTagSelection = (tag) => {
@@ -26,11 +50,17 @@ function Home() {
 
   // Update filtered tattooists whenever selectedTags change
   useEffect(() => {
-    if (selectedTags.length === 0) {
+    if (selectedTags.includes("Favourite")) {
+      // Filter tattooists based on favorites list
+      const favoritesFiltered = Tattooist.filter((tattooist) =>
+        favourites.includes(tattooist.id)
+      );
+      setFilteredTattooists(favoritesFiltered);
+    } else if (selectedTags.length === 0) {
       // If no tags selected then display all tattooists
       setFilteredTattooists(Tattooist);
     } else {
-      // If tags selected then filter tattooists
+      // Filter tattooists based on selected tags
       const filtered = Tattooist.filter((tattooist) => {
         const tagsObject = tattooist.tags[0];
         const tagsArray = Object.values(tagsObject);
@@ -40,7 +70,7 @@ function Home() {
       });
       setFilteredTattooists(filtered);
     }
-  }, [selectedTags]);
+  }, [selectedTags, favourites]);
 
   // Get all tags from all tattooists
   const allTags = Array.from(
@@ -152,7 +182,16 @@ function Home() {
           }}
           onClick={toggleFilter}
         >
-          Filter By Tags
+          Filter By Tags &nbsp;{" "}
+          <span
+            className="material-symbols-outlined"
+            style={{
+              transform: showFilter ? "scaleY(1.7)" : "scale(1)",
+              transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
+            }}
+          >
+            menu
+          </span>
         </div>
 
         <aside
@@ -185,6 +224,17 @@ function Home() {
             Filter by Tags
           </div> */}
           <ul style={{}}>
+            <li key="Favourite">
+              <button
+                className={`Homebtn Homefrom-left ${
+                  selectedTags.includes("Favourite") ? "selected" : ""
+                }`}
+                onClick={() => handleTagSelection("Favourite")}
+              >
+                Favourites
+              </button>
+            </li>
+
             {allTags.map((tag) => (
               <li key={tag}>
                 <button
@@ -217,6 +267,7 @@ function Home() {
         >
           {sortedFilteredTattooists.length === 0 ? (
             <div
+              className="HomeNone"
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -338,11 +389,11 @@ function Home() {
                 className="HomePopupCon"
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "1fr 1fr",
+                  gridTemplateColumns: "1fr 1fr 50px",
                   gridTemplateRows: "100px 1fr",
                   gridTemplateAreas: `
-              "HomePopupInfo HomePopupInfo"
-              "HomePopupArtCon HomePopupArtCon"
+              "HomePopupInfo HomePopupInfo HomeFav"
+              "HomePopupArtCon HomePopupArtCon HomePopupArtCon"
               `,
 
                   backgroundColor: "rgba(0,0,0,1)",
@@ -425,6 +476,33 @@ function Home() {
                     <span></span>
                   </div>
                 </a>
+
+                <div
+                  className="HomeFav"
+                  style={{
+                    gridArea: "HomeFav",
+                    color: favourites.includes(selectedArtist.id)
+                      ? "red"
+                      : "white",
+
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginTop: "50px",
+
+                    transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
+
+                    height: "100%",
+                  }}
+                  onClick={(e) => {
+                    favouriteArtiest(selectedArtist.id);
+                    e.stopPropagation();
+                  }}
+                >
+                  <div>
+                    <span className="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
 
                 <div
                   className="HomePopupArtCon"
