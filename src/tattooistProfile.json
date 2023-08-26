@@ -10,12 +10,13 @@
             "four": "Brushwork",
             "five": "Painting"
         }],
-        "work":[{
-            "one": "imgs/tattoos/BrushWork.jpg"
-
-
-        }]
-
+        "work": [
+            {"one": "imgs/tattoos/BrushWork.jpg"},
+            {"two": "imgs/tattoos/dante2.jpg"},
+            {"three": "imgs/tattoos/blackwork.jpg"},
+            {"four": "imgs/tattoos/realism.jpg"},
+            {"five": "imgs/tattoos/BrushWork.jpg"}
+        ]
     },
     {
         "id": "2",
@@ -29,7 +30,6 @@
             "four": "Skeleton",
             "five": "Dark"
         }]
-
     },
     {
         "id": "3",
@@ -44,7 +44,6 @@
             "four": "Cute",
             "five": "Pets"
         }]
-
     },
     {
         "id": "4",
@@ -59,7 +58,6 @@
             "four": "Realism",
             "five": "Protrait"
         }]
-
     },
     {
         "id": "5",
@@ -74,6 +72,5 @@
             "four": "Realism",
             "five": "Protrait"
         }]
-
     }
 ]

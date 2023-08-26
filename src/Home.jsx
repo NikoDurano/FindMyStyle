@@ -7,6 +7,7 @@ import "./css/HomeBtn.css";
 function Home() {
   const [selectedTags, setSelectedTags] = useState([]); // State for selected tags
   const [filteredTattooists, setFilteredTattooists] = useState(Tattooist);
+  const [selectedArtist, setSelectedArtist] = useState(null);
 
   // Function to handle tag selection
   const handleTagSelection = (tag) => {
@@ -47,9 +48,27 @@ function Home() {
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  const linkDelay = (link) => {
+  // Define a function to get all of a tattooist's work based on their ID
+  const getTattooistWork = (tattooistId) => {
+    const tattooist = Tattooist.find((artist) => artist.id === tattooistId);
+
+    if (tattooist) {
+      return tattooist.work.map((work) => Object.values(work)[0]);
+    }
+
+    return [];
+  };
+
+  // Inside your component, you can call this function when an artist is clicked
+  const artistClick = (id) => {
     setTimeout(() => {
-      window.open(link, "_blank");
+      const clickedArtist = Tattooist.find((artist) => artist.id === id);
+      if (clickedArtist) {
+        setSelectedArtist(clickedArtist);
+        const artistWork = getTattooistWork(id);
+        // Do something with the artist's work array
+        console.log(artistWork);
+      }
     }, 700);
   };
 
@@ -69,6 +88,7 @@ function Home() {
         `,
 
           height: "100%",
+          position: "relative",
 
           backgroundColor: "#212325",
           background:
@@ -168,7 +188,7 @@ function Home() {
                       "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%,#212325 100%)",
                   }}
                   target="_blank"
-                  onClick={linkDelay.bind(this, tattooist.link)}
+                  onClick={artistClick.bind(this, tattooist.id)}
                 >
                   <div
                     className="HomeTattooistPFP"
@@ -204,6 +224,130 @@ function Home() {
             })
           )}
         </div>
+
+        {selectedArtist && (
+          <>
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                zIndex: "0",
+                backgroundColor: "rgba(0,0,0,0.5)",
+                zIndex: "1",
+              }}
+              onClick={() => {
+                setSelectedArtist(null);
+              }}
+            ></div>
+
+            <div
+              className="HomePopupCon"
+              style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                gridTemplateRows: "100px 1fr",
+                gridTemplateAreas: `
+              "HomePopupInfo HomePopupInfo"
+              "HomePopupArtCon HomePopupArtCon"
+              `,
+
+                backgroundColor: "rgba(0,0,0,1)",
+
+                position: "absolute",
+                zIndex: "1",
+
+                right: "0",
+                height: "100%",
+                width: "500px",
+              }}
+            >
+              <a
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gridArea: "HomePopupInfo",
+                  marginTop: "50px",
+
+                  textDecoration: "none",
+                }}
+                href={selectedArtist.link}
+                target="_blank"
+              >
+                <div
+                  className="HomePopupPFP"
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    borderRadius: "50%",
+                    overflow: "hidden",
+
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    margin: "20px",
+                  }}
+                >
+                  <img
+                    src={selectedArtist.pfp}
+                    alt="pfp"
+                    style={{
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+
+                <div
+                  className="HomePopupName"
+                  style={{
+                    color: "white",
+                    fontSize: "2rem",
+
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+
+                    margin: "20px",
+                  }}
+                >
+                  {selectedArtist.name}
+                </div>
+              </a>
+
+              <div
+                className="HomePopupArtCon"
+                style={{
+                  gridArea: "HomePopupArtCon",
+                  display: "flex",
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                  alignContent: "stretch",
+                  justifyContent: "space-evenly",
+
+                  padding: "20px",
+                  marginTop: "50px",
+                }}
+              >
+                {getTattooistWork(selectedArtist.id).map((workImage, index) => (
+                  <img
+                    className="HomePopupArt"
+                    key={index}
+                    src={workImage}
+                    alt={`work-${index}`}
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                    }}
+                  />
+                ))}
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </>
   );
