@@ -8,6 +8,7 @@ function Home() {
   const [selectedTags, setSelectedTags] = useState([]); // State for selected tags
   const [filteredTattooists, setFilteredTattooists] = useState(Tattooist);
   const [selectedArtist, setSelectedArtist] = useState(null);
+  const [popup, setPopup] = useState(false);
 
   // Function to handle tag selection
   const handleTagSelection = (tag) => {
@@ -62,14 +63,22 @@ function Home() {
   // Inside your component, you can call this function when an artist is clicked
   const artistClick = (id) => {
     setTimeout(() => {
-      const clickedArtist = Tattooist.find((artist) => artist.id === id);
-      if (clickedArtist) {
-        setSelectedArtist(clickedArtist);
-        const artistWork = getTattooistWork(id);
-        // Do something with the artist's work array
-        console.log(artistWork);
-      }
-    }, 700);
+    const clickedArtist = Tattooist.find((artist) => artist.id === id);
+    if (clickedArtist) {
+      setSelectedArtist(clickedArtist);
+      const artistWork = getTattooistWork(id);
+      setPopup(true);
+      // Do something with the artist's work array
+      console.log(artistWork);
+    }
+  }, 500); // Adjust the delay time to match your transition duration
+  };
+
+  const closePopup = () => {
+    setPopup(false);
+    setTimeout(() => {
+      setSelectedArtist(null);
+    }, 500); // Adjust the delay time to match your transition duration
   };
 
   return (
@@ -225,133 +234,168 @@ function Home() {
           )}
         </div>
 
-        {selectedArtist && (
-          <>
-            <div
-              style={{
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-                zIndex: "0",
-                backgroundColor: "rgba(0,0,0,0.5)",
-                zIndex: "1",
-              }}
-              onClick={() => {
-                setSelectedArtist(null);
-              }}
-            ></div>
+        <div
+          className="HomePopupMaster"
+          style={{
+            position: "absolute",
 
-            <div
-              className="HomePopupCon"
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gridTemplateRows: "100px 1fr",
-                gridTemplateAreas: `
+            right: "0",
+            
+            
+            
+       
+
+            width: popup ? "100%" : "0%",
+            height: popup ? "100%" : "0%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+
+           
+
+            opacity: popup ? "1" : "0",
+            zIndex: popup ? "2" : "-1",
+            transform: popup ? "  translateX(0px)" : "translateX(220px)",
+
+            transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
+          }}
+        >
+          {selectedArtist && (
+            <>
+              <div
+                className="HomePopupBG"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  position: "absolute",
+                  backgroundColor: "rgba(0,0,0,0.5)",
+
+                  opacity: popup ? "1" : "0",
+                  transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
+
+                  zIndex: "1",
+                }}
+                onClick={() => {
+                  closePopup();
+                }}
+              ></div>
+
+              <div
+                className="HomePopupCon"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "1fr 1fr",
+                  gridTemplateRows: "100px 1fr",
+                  gridTemplateAreas: `
               "HomePopupInfo HomePopupInfo"
               "HomePopupArtCon HomePopupArtCon"
               `,
 
-                backgroundColor: "rgba(0,0,0,1)",
+                  backgroundColor: "rgba(0,0,0,1)",
 
-                position: "absolute",
-                zIndex: "1",
+                  position: "absolute",
+                  zIndex: "1",
 
-                right: "0",
-                height: "100%",
-                width: "500px",
-              }}
-            >
-              <a
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gridArea: "HomePopupInfo",
-                  marginTop: "50px",
-
-                  textDecoration: "none",
+                  right: "0",
+                  height: "100%",
+                  width: "500px",
+                  transform: popup ? "  translateX(0px)" : "translateX(220px)",
+                  transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
                 }}
-                href={selectedArtist.link}
-                target="_blank"
               >
-                <div
-                  className="HomePopupPFP"
+                <a
                   style={{
-                    height: "100px",
-                    width: "100px",
-                    borderRadius: "50%",
-                    overflow: "hidden",
-
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    margin: "20px",
+                    gridArea: "HomePopupInfo",
+                    marginTop: "50px",
+
+                    textDecoration: "none",
                   }}
+                  href={selectedArtist.link}
+                  target="_blank"
                 >
-                  <img
-                    src={selectedArtist.pfp}
-                    alt="pfp"
+                  <div
+                    className="HomePopupPFP"
                     style={{
-                      width: "100px",
                       height: "100px",
+                      width: "100px",
                       borderRadius: "50%",
-                      objectFit: "cover",
+                      overflow: "hidden",
+
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      margin: "20px",
                     }}
-                  />
-                </div>
+                  >
+                    <img
+                      src={selectedArtist.pfp}
+                      alt="pfp"
+                      style={{
+                        width: "100px",
+                        height: "100px",
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                      }}
+                    />
+                  </div>
+
+                  <div
+                    className="HomePopupName"
+                    style={{
+                      color: "white",
+                      fontSize: "2rem",
+
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      letterSpacing: "1.1rem",
+                      textTransform: "uppercase",
+
+                      margin: "20px",
+                    }}
+                  >
+                    {selectedArtist.name}
+                  </div>
+                </a>
 
                 <div
-                  className="HomePopupName"
+                  className="HomePopupArtCon"
                   style={{
-                    color: "white",
-                    fontSize: "2rem",
-
+                    gridArea: "HomePopupArtCon",
                     display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    letterSpacing: "1.1rem",
-                    textTransform: "uppercase",
+                    flexDirection: "row",
+                    flexWrap: "wrap",
+                    alignContent: "stretch",
+                    justifyContent: "space-evenly",
 
-                    margin: "20px",
+                    padding: "20px",
+                    marginTop: "50px",
+                    overflowY: "auto",
                   }}
                 >
-                  {selectedArtist.name}
+                  {getTattooistWork(selectedArtist.id).map(
+                    (workImage, index) => (
+                      <img
+                        className="HomePopupArt"
+                        key={index}
+                        src={workImage}
+                        alt={`work-${index}`}
+                        style={{
+                          width: "200px",
+                          height: "200px",
+                          margin: "5px",
+                        }}
+                      />
+                    )
+                  )}
                 </div>
-              </a>
-
-              <div
-                className="HomePopupArtCon"
-                style={{
-                  gridArea: "HomePopupArtCon",
-                  display: "flex",
-                  flexDirection: "row",
-                  flexWrap: "wrap",
-                  alignContent: "stretch",
-                  justifyContent: "space-evenly",
-
-                  padding: "20px",
-                  marginTop: "50px",
-                  overflowY: "auto",
-                }}
-              >
-                {getTattooistWork(selectedArtist.id).map((workImage, index) => (
-                  <img
-                    className="HomePopupArt"
-                    key={index}
-                    src={workImage}
-                    alt={`work-${index}`}
-                    style={{
-                      width: "200px",
-                      height: "200px",
-                      margin: "5px",
-                    }}
-                  />
-                ))}
               </div>
-            </div>
-          </>
-        )}
+            </>
+          )}
+        </div>
       </div>
     </>
   );
