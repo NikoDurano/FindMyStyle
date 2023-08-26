@@ -3,11 +3,13 @@
     background-color: white;
     font-weight: bold;
     color: black;
+    
 }
 
 /* Add the selected class to selected buttons */
 .Homebtn.selected:hover {
     color: black;
+    transition-delay: 0s;
     background-color: var(--inv); /* Change background color on hover */
 }
 

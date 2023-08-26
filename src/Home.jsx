@@ -121,6 +121,7 @@ function Home() {
             style={{
               fontSize: "3rem",
               textAlign: "center",
+              textTransform: "uppercase",
             }}
           >
             Filter by Tags
