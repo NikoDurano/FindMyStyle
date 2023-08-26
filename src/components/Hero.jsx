@@ -24,29 +24,26 @@ function Hero() {
             "linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%,rgba(0,0,0,1) 60%,#212325 100%)",
         }}
       >
-       
-          <div
-            className="mainTitle"
+        <div
+          className="mainTitle"
+          style={{
+            marginTop: "10px",
+            marginBottom: "10px",
+            marginRight: "96px",
+          }}
+        >
+          <img
+            src={logo}
+            alt="logo"
             style={{
-              marginTop: "10px",
-              marginBottom: "10px",
-              marginRight: "96px",
+              filter: "invert(1)",
+              width: "100%",
+              maxWidth: "500px",
+              height: "auto",
+              maxHeight: "500px",
             }}
-          >
-            <img
-              src={logo}
-              alt="logo"
-              style={{
-                filter: "invert(1)",
-                width: "100%",
-                maxWidth: "500px",
-                height: "auto",
-                maxHeight: "500px",
-
-              }}
-            />
-          </div>
-       
+          />
+        </div>
 
         <div>
           <div
@@ -64,7 +61,14 @@ function Hero() {
             of artist and their work to find the perfect tattoo for you.
           </div>
         </div>
-        <div className="btn from-center">
+        <div
+          className="btn from-center"
+          onClick={() => {
+            setTimeout(() => {
+              window.location.href = "/home";
+            }, 700);
+          }}
+        >
           <div>Find Your Style</div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 [{
         "id": "1",
         "name": "evexing.art",
+        "pfp": "imgs/pfp/evexing.jpg",
         "link": "https://www.instagram.com/evexing.art/",
         "tags": [{
             "one": "art",
@@ -14,6 +15,7 @@
     {
         "id": "2",
         "name": "reverse_de_dante",
+        "pfp": "imgs/pfp/dante.jpg",
         "link": "https://www.instagram.com/reverse_de_dante/",
         "tags": [{
             "one": "art",
@@ -27,6 +29,8 @@
     {
         "id": "3",
         "name": "tattooist_suf",
+        "pfp": "imgs/pfp/suf.jpg",
+
         "link": "https://www.instagram.com/tattooist_suf/",
         "tags": [{
             "one": "art",
@@ -40,6 +44,8 @@
     {
         "id": "4",
         "name": "lawxtattoo",
+        "pfp": "imgs/pfp/law.jpg",
+
         "link": "https://www.instagram.com/lawxtattoo/",
         "tags": [{
             "one": "art",
@@ -53,6 +59,8 @@
     {
         "id": "5",
         "name": "zara_tt_",
+        "pfp": "imgs/pfp/zara.jpg",
+
         "link": "https://www.instagram.com/zara__tt_/",
         "tags": [{
             "one": "art",
