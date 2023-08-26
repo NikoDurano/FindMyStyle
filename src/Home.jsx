@@ -39,15 +39,24 @@ function Home() {
 
   // Function to handle tag selection
   const handleTagSelection = (tag) => {
-    if (selectedTags.includes(tag)) {
-      // If tag already selected then remove tag from selected
-      setSelectedTags(selectedTags.filter((t) => t !== tag));
+    if (tag === "Favourite") {
+      if (selectedTags.includes(tag)) {
+        setSelectedTags([]);
+      } else {
+        setSelectedTags([tag]);
+      }
     } else {
-      // If tag not selected then add tag to selected
-      setSelectedTags([...selectedTags, tag]);
+      if (selectedTags.includes("Favourite")) {
+        setSelectedTags([tag]);
+      } else {
+        setSelectedTags(
+          selectedTags.includes(tag)
+            ? selectedTags.filter((t) => t !== tag)
+            : [...selectedTags, tag]
+        );
+      }
     }
   };
-
   // Update filtered tattooists whenever selectedTags change
   useEffect(() => {
     if (selectedTags.includes("Favourite")) {
@@ -242,6 +251,7 @@ function Home() {
                     selectedTags.includes(tag) ? "selected" : ""
                   }`}
                   onClick={() => handleTagSelection(tag)}
+                  disabled={selectedTags.includes("Favourite")}
                 >
                   {tag}
                 </button>
