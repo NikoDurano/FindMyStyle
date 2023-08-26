@@ -4,11 +4,16 @@
         "pfp": "imgs/pfp/evexing.jpg",
         "link": "https://www.instagram.com/evexing.art/",
         "tags": [{
-            "one": "art",
-            "two": "vancouver",
-            "three": "oriental",
-            "four": "brushwork",
-            "five": "painting"
+            "one": "Art",
+            "two": "Vancouver",
+            "three": "Oriental",
+            "four": "Brushwork",
+            "five": "Painting"
+        }],
+        "work":[{
+            "one": "imgs/tattoos/BrushWork.jpg"
+
+
         }]
 
     },
@@ -18,11 +23,11 @@
         "pfp": "imgs/pfp/dante.jpg",
         "link": "https://www.instagram.com/reverse_de_dante/",
         "tags": [{
-            "one": "art",
-            "two": "korean",
-            "three": "blackwork",
-            "four": "skeleton",
-            "five": "dark"
+            "one": "Art",
+            "two": "Korean",
+            "three": "Blackwork",
+            "four": "Skeleton",
+            "five": "Dark"
         }]
 
     },
@@ -33,11 +38,11 @@
 
         "link": "https://www.instagram.com/tattooist_suf/",
         "tags": [{
-            "one": "art",
-            "two": "korean",
-            "three": "realism",
-            "four": "cute",
-            "five": "pets"
+            "one": "Art",
+            "two": "Korean",
+            "three": "Realism",
+            "four": "Cute",
+            "five": "Pets"
         }]
 
     },
@@ -48,11 +53,11 @@
 
         "link": "https://www.instagram.com/lawxtattoo/",
         "tags": [{
-            "one": "art",
-            "two": "korean",
-            "three": "microrealism",
-            "four": "realism",
-            "five": "protrait"
+            "one": "Art",
+            "two": "Korean",
+            "three": "Microrealism",
+            "four": "Realism",
+            "five": "Protrait"
         }]
 
     },
@@ -63,11 +68,11 @@
 
         "link": "https://www.instagram.com/zara__tt_/",
         "tags": [{
-            "one": "art",
-            "two": "korean",
-            "three": "microrealism",
-            "four": "realism",
-            "five": "protrait"
+            "one": "Art",
+            "two": "Korean",
+            "three": "Microrealism",
+            "four": "Realism",
+            "five": "Protrait"
         }]
 
     }
