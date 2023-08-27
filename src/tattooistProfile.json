@@ -35,9 +35,9 @@
         "tags": [{
             "one": "Patchwork",
             "two": "Korean",
-            "five": "Dark",
             "six": "Negative Space",
-            "seven": "Black and Grey"
+            "seven": "Black and Grey",
+            "eight": "Blackwork"
         }],
         "work": [{
                 "one": "imgs/tattoos/blackwork.jpg"
@@ -325,7 +325,8 @@
             "two": "Sleeve",
             "four": "Black and Grey",
             "five": "Oriental",
-            "six": "Brushwork"
+            "six": "Brushwork",
+            "seven": "Blackwork"
         }],
         "work": [{
                 "one": "imgs/tattoos/jing1.jpg"
@@ -354,7 +355,8 @@
             "two": "Sleeve",
             "four": "Black and Grey",
             "five": "Colour",
-            "six": "Oriental"
+            "six": "Oriental",
+            "seven": "Blackwork"
         }],
         "work": [{
                 "one": "imgs/tattoos/taena1.jpg"

@@ -35,6 +35,7 @@ const EmblaCarousel = (props) => {
                 }}
               >
                 <img
+                  className="embla__slide__pfp"
                   style={{
                     width: "150px",
                     height: "150px",
@@ -47,6 +48,8 @@ const EmblaCarousel = (props) => {
                   alt="PFP"
                 />
                 <a
+
+                className="embla__slide__name"
                   style={{
                     marginLeft: "auto",
                     marginRight: "auto",
@@ -55,7 +58,7 @@ const EmblaCarousel = (props) => {
                     cursor: "pointer",
                     textDecoration: "none",
                     textTransform: "uppercase",
-                    letterSpacing: "0.1rem",
+                    letterSpacing: "1.0rem",
                     
                   }}
                   href={linksByIndex(index)}
