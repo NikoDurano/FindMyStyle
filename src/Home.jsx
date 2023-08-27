@@ -486,7 +486,7 @@ function Home() {
 
                       transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
 
-                      margin: "20px",
+                      
                       padding: "10px",
                       position: "relative",
                     }}

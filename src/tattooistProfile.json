@@ -314,7 +314,7 @@
                 "five": "imgs/tattoos/fabi5.jpg"
             }
         ]
-    },    
+    },
     {
         "id": "12",
         "name": "Jing.ink",
@@ -398,6 +398,95 @@
             },
             {
                 "five": "imgs/tattoos/greogory5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "victorialeetattoo",
+        "pfp": "imgs/pfp/victoria.jpg",
+        "link": "https://www.instagram.com/victorialeetattoo/",
+        "tags": [{
+            "one": "Realism",
+            "two": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Protrait",
+            "six": "Colour"
+        }],
+        "work": [{
+                "one": "imgs/tattoos/victoria1.png"
+            },
+            {
+                "two": "imgs/tattoos/victoria2.png"
+            },
+            {
+                "three": "imgs/tattoos/victoria3.png"
+            },
+            {
+                "four": "imgs/tattoos/victoria4.png"
+            },
+            {
+                "five": "imgs/tattoos/victoria5.png"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "kaiju.ink",
+        "pfp": "imgs/pfp/kaiju.jpg",
+        "link": "https://www.instagram.com/kaiju.ink/",
+        "tags": [{
+            "one": "Realism",
+            "two": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Protrait",
+            "six": "Pets",
+            "seven": "Vancouver",
+            "eight": "Canada"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/kaiju1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/kaiju2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/kaiju3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/kaiju4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/kaiju5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "wm.tatts",
+        "pfp": "imgs/pfp/wm.jpg",
+        "link": "https://www.instagram.com/wm.tatts/",
+        "tags": [{
+            "one": "Microrealism",
+            "two": "Sleeve",
+            "four": "Black and Grey"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/wm1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/wm2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/wm3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/wm4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/wm5.jpg"
             }
         ]
     }
