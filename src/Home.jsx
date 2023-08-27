@@ -3,7 +3,7 @@ import Tattooist from "./tattooistProfile.json";
 import Nav from "./components/Nav.jsx";
 import Masonry from 'react-masonry-css'
 
-import "./css/HomeBtn.css";
+
 
 function Home() {
   const [selectedTags, setSelectedTags] = useState([]); // State for selected tags
