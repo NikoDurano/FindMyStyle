@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yellowtail&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yellowtail&display=swap");
+@import "transition-style";
 
 html,
 body {
@@ -11,7 +11,8 @@ body,
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+  background-color: #212325;
 }
 
 .my-masonry-grid {
@@ -27,7 +28,47 @@ body,
 }
 
 /* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
   background: grey;
   margin-bottom: 30px;
+}
+
+@keyframes wipe-in-down {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:wipe:down"] {
+  animation: 0.5s cubic-bezier(0.77, 0, 0.175, 1) wipe-in-down both;
+}
+
+@keyframes wipe-in-right {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:wipe:right"] {
+  animation: 0.5s cubic-bezier(0.77, 0, 0.175, 1) wipe-in-right both;
+}
+
+@keyframes wipe-in-left {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:wipe:left"] {
+  animation: 0.5s cubic-bezier(0.77, 0, 0.175, 1) wipe-in-left both;
 }

@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Tattooist from "./tattooistProfile.json";
 import Nav from "./components/Nav.jsx";
-import Masonry from 'react-masonry-css'
-
-
+import Masonry from "react-masonry-css";
 
 function Home() {
   const [selectedTags, setSelectedTags] = useState([]); // State for selected tags
@@ -147,17 +145,17 @@ function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
   const breakpointColumnsObj = {
     default: 2,
     1100: 2,
     700: 2,
-    500: 1
+    500: 1,
   };
 
   return (
     <>
       <div
+        transition-style="in:wipe:down"
         className="HomeMainCon"
         style={{
           display: "grid",
@@ -286,6 +284,7 @@ function Home() {
         >
           {sortedFilteredTattooists.length === 0 ? (
             <div
+              transition-style="in:wipe:down"
               className="HomeNone"
               style={{
                 display: "flex",
@@ -307,6 +306,7 @@ function Home() {
             sortedFilteredTattooists.map((tattooist) => {
               return (
                 <div
+                  transition-style="in:wipe:right"
                   className="HomeTattooistBox HomeTattooistBox-center"
                   key={tattooist.id}
                   style={{
@@ -365,21 +365,21 @@ function Home() {
         </div>
 
         <div
+          transition-style="in:wipe:left"
           className="HomePopupMaster"
           style={{
             position: "absolute",
 
             right: "0",
 
-            width: popup ? "100%" : "0%",
-            height: popup ? "100%" : "0%",
+            width: "100%",
+            height: "100%",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
 
             opacity: popup ? "1" : "0",
-            zIndex: popup ? "2" : "-1",
-            transform: popup ? "  translateX(0px)" : "translateX(220px)",
+            zIndex: popup ? "3" : "-1",
 
             transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
           }}
@@ -397,14 +397,12 @@ function Home() {
                   position: "absolute",
                   backgroundColor: "rgba(0,0,0,0.5)",
 
-                  opacity: popup ? "1" : "0",
-                  transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
-
                   zIndex: "1",
                 }}
               ></div>
 
               <div
+                transition-style="in:wipe:left"
                 className="HomePopupCon"
                 style={{
                   display: "grid",
@@ -418,14 +416,12 @@ function Home() {
                   backgroundColor: "rgba(0,0,0,1)",
 
                   position: "absolute",
-                  zIndex: "1",
+                  zIndex: "2",
                   overflowY: "auto",
 
                   right: "0",
                   height: "100%",
                   width: "500px",
-                  transform: popup ? "  translateX(0px)" : "translateX(220px)",
-                  transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
                 }}
               >
                 <a
@@ -486,7 +482,6 @@ function Home() {
 
                       transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
 
-                      
                       padding: "10px",
                       position: "relative",
                     }}
@@ -512,6 +507,7 @@ function Home() {
                     transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",
 
                     height: "100%",
+                    cursor: "pointer",
                   }}
                   onClick={(e) => {
                     favouriteArtiest(selectedArtist.id);
@@ -539,26 +535,27 @@ function Home() {
                   }}
                 >
                   <Masonry
-
                     breakpointCols={breakpointColumnsObj}
                     className="my-masonry-grid"
                     columnClassName="my-masonry-grid_column"
                   >
-                  {getTattooistWork(selectedArtist.id).map(
-                    (workImage, index) => (
-                      <img
-                        className="HomePopupArt"
-                        key={index}
-                        src={workImage}
-                        alt={`work-${index}`}
-                        style={{
-                          // width: "200px",
-                          // height: "200px",
-                          // margin: "10px",
-                        }}
-                      />
-                    )
-                  )}
+                    {getTattooistWork(selectedArtist.id).map(
+                      (workImage, index) => (
+                        <img
+                          className="HomePopupArt"
+                          key={index}
+                          src={workImage}
+                          alt={`work-${index}`}
+                          style={
+                            {
+                              // width: "200px",
+                              // height: "200px",
+                              // margin: "10px",
+                            }
+                          }
+                        />
+                      )
+                    )}
                   </Masonry>
                 </div>
               </div>
