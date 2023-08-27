@@ -472,7 +472,7 @@ function Home() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      letterSpacing: "1.1rem",
+                      letterSpacing: "0.5rem",
                       textTransform: "uppercase",
 
                       transition: "all 500ms cubic-bezier(0.77, 0, 0.175, 1)",

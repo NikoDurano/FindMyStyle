@@ -4,18 +4,26 @@
         "pfp": "imgs/pfp/evexing.jpg",
         "link": "https://www.instagram.com/evexing.art/",
         "tags": [{
-            "one": "Art",
+            "one": "Asian",
             "two": "Vancouver",
-            "three": "Oriental",
             "four": "Brushwork",
             "five": "Painting"
         }],
-        "work": [
-            {"one": "imgs/tattoos/BrushWork.jpg"},
-            {"two": "imgs/tattoos/dante2.jpg"},
-            {"three": "imgs/tattoos/blackwork.jpg"},
-            {"four": "imgs/tattoos/realism.jpg"},
-            {"five": "imgs/tattoos/BrushWork.jpg"}
+        "work": [{
+                "one": "imgs/tattoos/BrushWork.jpg"
+            },
+            {
+                "two": "imgs/tattoos/evexing2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/evexing3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/evexing4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/evexing5.jpg"
+            }
         ]
     },
     {
@@ -24,12 +32,31 @@
         "pfp": "imgs/pfp/dante.jpg",
         "link": "https://www.instagram.com/reverse_de_dante/",
         "tags": [{
-            "one": "Art",
+            "one": "Patchwork",
             "two": "Korean",
             "three": "Blackwork",
-            "four": "Skeleton",
-            "five": "Dark"
-        }]
+            "five": "Dark",
+            "six": "Negative Space",
+            "seven": "Black and Grey",
+            "eight": "Colour",
+            "nine": "Abstract"
+        }],
+        "work": [{
+                "one": "imgs/tattoos/blackwork.jpg"
+            },
+            {
+                "two": "imgs/tattoos/dante2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/dante3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/dante4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/dante5.jpg"
+            }
+        ]
     },
     {
         "id": "3",
@@ -38,12 +65,31 @@
 
         "link": "https://www.instagram.com/tattooist_suf/",
         "tags": [{
-            "one": "Art",
+            "one": "Cover Up",
             "two": "Korean",
             "three": "Realism",
             "four": "Cute",
-            "five": "Pets"
-        }]
+            "five": "Pets",
+            "six": "small",
+            "seven": "Colour",
+            "eight": "Painting"
+        }],
+        "work": [{
+            "one": "imgs/tattoos/realism.jpg"
+        },
+        {
+            "two": "imgs/tattoos/suf2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/suf3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/suf4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/suf5.jpg"
+        }
+    ]
     },
     {
         "id": "4",
@@ -52,12 +98,27 @@
 
         "link": "https://www.instagram.com/lawxtattoo/",
         "tags": [{
-            "one": "Art",
+            "one": "Black and Grey",
             "two": "Korean",
-            "three": "Microrealism",
             "four": "Realism",
             "five": "Protrait"
-        }]
+        }],
+        "work": [{
+            "one": "imgs/tattoos/microrealism.jpg"
+        },
+        {
+            "two": "imgs/tattoos/law2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/law3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/law4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/law5.jpg"
+        }
+    ]
     },
     {
         "id": "5",
@@ -66,11 +127,88 @@
 
         "link": "https://www.instagram.com/zara__tt_/",
         "tags": [{
-            "one": "Art",
+            "one": "Black and Grey",
             "two": "Korean",
-            "three": "Microrealism",
             "four": "Realism",
             "five": "Protrait"
-        }]
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/microrealism2.jpg"
+        },
+        {
+            "two": "imgs/tattoos/zara2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/zara3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/zara4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/zara5.jpg"
+        }
+    ]
+    },
+    {
+        "id": "6",
+        "name": "ati.ful",
+        "pfp": "imgs/pfp/atiful.jpg",
+
+        "link": "https://www.instagram.com/ati.ful/",
+        "tags": [{
+            "one": "Black and Grey",
+            "two": "Korean",
+            "three": "Brushwork",
+            "four": "Realism",
+            "five": "Asian",
+            "six": "Painting"
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/atiful1.jpg"
+        },
+        {
+            "two": "imgs/tattoos/atiful2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/atiful3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/atiful4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/atiful5.jpg"
+        }
+    ]
+    },
+    {
+        "id": "7",
+        "name": "noma_tattooer",
+        "pfp": "imgs/pfp/noma.jpg",
+
+        "link": "https://www.instagram.com/noma_tattooer/",
+        "tags": [{
+            "one": "Black and Grey",
+            "two": "London",
+            "three": "Microrealism"
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/noma1.jpg"
+        },
+        {
+            "two": "imgs/tattoos/noma2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/noma3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/noma4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/noma5.jpg"
+        }
+    ]
     }
 ]
