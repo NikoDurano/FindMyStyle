@@ -4,10 +4,11 @@
         "pfp": "imgs/pfp/evexing.jpg",
         "link": "https://www.instagram.com/evexing.art/",
         "tags": [{
-            "one": "Asian",
+            "one": "Oriental",
             "two": "Vancouver",
             "four": "Brushwork",
-            "five": "Painting"
+            "five": "Painting",
+            "six": "Canada"
         }],
         "work": [{
                 "one": "imgs/tattoos/BrushWork.jpg"
@@ -161,7 +162,7 @@
             "two": "Korean",
             "three": "Brushwork",
             "four": "Realism",
-            "five": "Asian",
+            "five": "Oriental",
             "six": "Painting"
 
         }],
@@ -208,6 +209,129 @@
         },
         {
             "five": "imgs/tattoos/noma5.jpg"
+        }
+    ]
+    },
+    {
+        "id": "8",
+        "name": "truong87",
+        "pfp": "imgs/pfp/truong.jpg",
+
+        "link": "https://www.instagram.com/truong87/",
+        "tags": [{
+            "one": "Oriental",
+            "two": "Vancouver",
+            "three": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Canada"
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/truong1.jpg"
+        },
+        {
+            "two": "imgs/tattoos/truong2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/truong3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/truong4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/truong5.jpg"
+        }
+    ]
+    },
+    {
+        "id": "9",
+        "name": "saki.lss",
+        "pfp": "imgs/pfp/saki.jpg",
+
+        "link": "https://www.instagram.com/saki.lss/",
+        "tags": [{
+            "one": "Oriental",
+            "two": "Korean",
+            "three": "Sleeve",
+            "four": "Colour"
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/saki1.jpg"
+        },
+        {
+            "two": "imgs/tattoos/saki2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/saki3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/saki4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/saki5.jpg"
+        }
+    ]
+    },
+    {
+        "id": "10",
+        "name": "goldy_z",
+        "pfp": "imgs/pfp/goldy.jpg",
+
+        "link": "https://www.instagram.com/goldy_z/",
+        "tags": [{
+            "one": "Realism",
+            "two": "NYC",
+            "three": "Protrait",
+            "four": "Black and Grey",
+            "five": "Pets"
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/goldy1.jpg"
+        },
+        {
+            "two": "imgs/tattoos/goldy2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/goldy3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/goldy4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/goldy5.jpg"
+        }
+    ]
+    },
+    {
+        "id": "11",
+        "name": "hiromi.tattoo",
+        "pfp": "imgs/pfp/fabi.jpg",
+
+        "link": "https://www.instagram.com/hiromi.tattoo/",
+        "tags": [{
+            "one": "Canada",
+            "two": "Sleeve",
+            "three": "Colour",
+            "four": "Black and Grey",
+            "five": "Oriental"
+
+        }],
+        "work": [{
+            "one": "imgs/tattoos/fabi1.jpg"
+        },
+        {
+            "two": "imgs/tattoos/fabi2.jpg"
+        },
+        {
+            "three": "imgs/tattoos/fabi3.jpg"
+        },
+        {
+            "four": "imgs/tattoos/fabi4.jpg"
+        },
+        {
+            "five": "imgs/tattoos/fabi5.jpg"
         }
     ]
     }
