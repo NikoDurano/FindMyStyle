@@ -5,7 +5,7 @@ import image4 from '../imgs/carousel/microrealism.jpg'
 import image5 from '../imgs/carousel/microrealism2.jpg'
 
 
-export const images = [image1, image2, image3, image4, image5]
+export const images = [image4, image2, image3, image1, image5]
 
 const imageByIndex = (index) => images[index % images.length]
 
