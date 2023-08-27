@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../logo2.svg";
+import { Link } from "react-router-dom";
+
 import "../css/buttons.css";
 
 function Hero() {
@@ -60,16 +62,16 @@ function Hero() {
             of artist and their work to find the perfect tattoo for you.
           </div>
         </div>
-        <div
-          className="btn from-center"
-          onClick={() => {
-            setTimeout(() => {
-              window.location.href = "/home";
-            }, 700);
+        <Link
+          to="/home"
+          style={{
+            textDecoration: "none",
           }}
         >
-          <div>Find Your Style</div>
-        </div>
+          <div className="btn from-center">
+            <div>Find Your Style</div>
+          </div>
+        </Link>
       </div>
     </>
   );

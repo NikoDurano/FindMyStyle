@@ -10,8 +10,8 @@ function Root() {
     <BrowserRouter>
       <Routes>
         <Route index path="/" element={<App />} />
-        <Route path="home" element={<Home />} />
-        <Route path="*" element={<Navigate to="/" replace/>} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/*" element={<Navigate to="/" replace/>} />
       </Routes>
     </BrowserRouter>
   );
