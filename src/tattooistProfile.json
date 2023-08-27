@@ -35,12 +35,9 @@
         "tags": [{
             "one": "Patchwork",
             "two": "Korean",
-            "three": "Blackwork",
             "five": "Dark",
             "six": "Negative Space",
-            "seven": "Black and Grey",
-            "eight": "Colour",
-            "nine": "Abstract"
+            "seven": "Black and Grey"
         }],
         "work": [{
                 "one": "imgs/tattoos/blackwork.jpg"
@@ -63,40 +60,37 @@
         "id": "3",
         "name": "tattooist_suf",
         "pfp": "imgs/pfp/suf.jpg",
-
         "link": "https://www.instagram.com/tattooist_suf/",
         "tags": [{
             "one": "Cover Up",
             "two": "Korean",
             "three": "Realism",
-            "four": "Cute",
             "five": "Pets",
             "six": "small",
             "seven": "Colour",
             "eight": "Painting"
         }],
         "work": [{
-            "one": "imgs/tattoos/realism.jpg"
-        },
-        {
-            "two": "imgs/tattoos/suf2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/suf3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/suf4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/suf5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/realism.jpg"
+            },
+            {
+                "two": "imgs/tattoos/suf2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/suf3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/suf4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/suf5.jpg"
+            }
+        ]
     },
     {
         "id": "4",
         "name": "lawxtattoo",
         "pfp": "imgs/pfp/law.jpg",
-
         "link": "https://www.instagram.com/lawxtattoo/",
         "tags": [{
             "one": "Black and Grey",
@@ -105,57 +99,54 @@
             "five": "Protrait"
         }],
         "work": [{
-            "one": "imgs/tattoos/microrealism.jpg"
-        },
-        {
-            "two": "imgs/tattoos/law2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/law3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/law4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/law5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/microrealism.jpg"
+            },
+            {
+                "two": "imgs/tattoos/law2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/law3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/law4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/law5.jpg"
+            }
+        ]
     },
     {
         "id": "5",
         "name": "zara_tt_",
         "pfp": "imgs/pfp/zara.jpg",
-
         "link": "https://www.instagram.com/zara__tt_/",
         "tags": [{
             "one": "Black and Grey",
             "two": "Korean",
             "four": "Realism",
             "five": "Protrait"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/microrealism2.jpg"
-        },
-        {
-            "two": "imgs/tattoos/zara2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/zara3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/zara4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/zara5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/microrealism2.jpg"
+            },
+            {
+                "two": "imgs/tattoos/zara2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/zara3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/zara4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/zara5.jpg"
+            }
+        ]
     },
     {
         "id": "6",
         "name": "ati.ful",
         "pfp": "imgs/pfp/atiful.jpg",
-
         "link": "https://www.instagram.com/ati.ful/",
         "tags": [{
             "one": "Black and Grey",
@@ -164,59 +155,55 @@
             "four": "Realism",
             "five": "Oriental",
             "six": "Painting"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/atiful1.jpg"
-        },
-        {
-            "two": "imgs/tattoos/atiful2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/atiful3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/atiful4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/atiful5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/atiful1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/atiful2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/atiful3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/atiful4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/atiful5.jpg"
+            }
+        ]
     },
     {
         "id": "7",
         "name": "noma_tattooer",
         "pfp": "imgs/pfp/noma.jpg",
-
         "link": "https://www.instagram.com/noma_tattooer/",
         "tags": [{
             "one": "Black and Grey",
             "two": "London",
             "three": "Microrealism"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/noma1.jpg"
-        },
-        {
-            "two": "imgs/tattoos/noma2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/noma3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/noma4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/noma5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/noma1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/noma2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/noma3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/noma4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/noma5.jpg"
+            }
+        ]
     },
     {
         "id": "8",
         "name": "truong87",
         "pfp": "imgs/pfp/truong.jpg",
-
         "link": "https://www.instagram.com/truong87/",
         "tags": [{
             "one": "Oriental",
@@ -224,91 +211,85 @@
             "three": "Sleeve",
             "four": "Black and Grey",
             "five": "Canada"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/truong1.jpg"
-        },
-        {
-            "two": "imgs/tattoos/truong2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/truong3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/truong4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/truong5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/truong1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/truong2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/truong3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/truong4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/truong5.jpg"
+            }
+        ]
     },
     {
         "id": "9",
         "name": "saki.lss",
         "pfp": "imgs/pfp/saki.jpg",
-
         "link": "https://www.instagram.com/saki.lss/",
         "tags": [{
             "one": "Oriental",
             "two": "Korean",
             "three": "Sleeve",
             "four": "Colour"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/saki1.jpg"
-        },
-        {
-            "two": "imgs/tattoos/saki2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/saki3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/saki4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/saki5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/saki1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/saki2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/saki3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/saki4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/saki5.jpg"
+            }
+        ]
     },
     {
         "id": "10",
         "name": "goldy_z",
         "pfp": "imgs/pfp/goldy.jpg",
-
         "link": "https://www.instagram.com/goldy_z/",
         "tags": [{
             "one": "Realism",
-            "two": "NYC",
+            "two": "USA",
             "three": "Protrait",
             "four": "Black and Grey",
             "five": "Pets"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/goldy1.jpg"
-        },
-        {
-            "two": "imgs/tattoos/goldy2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/goldy3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/goldy4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/goldy5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/goldy1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/goldy2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/goldy3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/goldy4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/goldy5.jpg"
+            }
+        ]
     },
     {
         "id": "11",
         "name": "hiromi.tattoo",
         "pfp": "imgs/pfp/fabi.jpg",
-
         "link": "https://www.instagram.com/hiromi.tattoo/",
         "tags": [{
             "one": "Canada",
@@ -316,23 +297,109 @@
             "three": "Colour",
             "four": "Black and Grey",
             "five": "Oriental"
-
         }],
         "work": [{
-            "one": "imgs/tattoos/fabi1.jpg"
-        },
-        {
-            "two": "imgs/tattoos/fabi2.jpg"
-        },
-        {
-            "three": "imgs/tattoos/fabi3.jpg"
-        },
-        {
-            "four": "imgs/tattoos/fabi4.jpg"
-        },
-        {
-            "five": "imgs/tattoos/fabi5.jpg"
-        }
-    ]
+                "one": "imgs/tattoos/fabi1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/fabi2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/fabi3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/fabi4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/fabi5.jpg"
+            }
+        ]
+    },    
+    {
+        "id": "12",
+        "name": "Jing.ink",
+        "pfp": "imgs/pfp/jing.jpg",
+        "link": "https://www.instagram.com/jing.ink/",
+        "tags": [{
+            "one": "Austrailia",
+            "two": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Oriental",
+            "six": "Brushwork"
+        }],
+        "work": [{
+                "one": "imgs/tattoos/jing1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/jing2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/jing3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/jing4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/jing5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "taena.tattoo",
+        "pfp": "imgs/pfp/taena.jpg",
+        "link": "https://www.instagram.com/taena.tattoo/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Colour",
+            "six": "Oriental"
+        }],
+        "work": [{
+                "one": "imgs/tattoos/taena1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/taena2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/taena3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/taena4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/taena5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "gregoryjuarez",
+        "pfp": "imgs/pfp/greogory.jpg",
+        "link": "https://www.instagram.com/gregoryjuarez_/",
+        "tags": [{
+            "one": "Realism",
+            "two": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Protrait"
+        }],
+        "work": [{
+                "one": "imgs/tattoos/greogory1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/greogory2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/greogory3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/greogory4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/greogory5.jpg"
+            }
+        ]
     }
+
 ]
