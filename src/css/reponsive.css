@@ -81,6 +81,70 @@
     text-align: center !important;
   }
 
+.Homefrom-left:before,
+.Homefrom-left:after {
+  top: unset !important;
+  width: unset !important;
+  height: unset !important;
+}
+
+.Homefrom-left:before {
+  right: unset !important;
+  border: unset !important;
+  border-left: unset !important;
+  border-right: unset !important;
+}
+
+.Homefrom-left:after {
+  left: unset !important;
+}
+
+.Homefrom-left:hover:before,
+.Homefrom-left:hover:after {
+  width: unset !important;
+}
+
+.Homebtn:before,
+.Homebtn:after {
+  content: unset !important;
+  position: unset !important;
+  transition: unset !important;
+  z-index: unset !important;
+}
+
+.Homebtn:hover {
+  color: unset !important;
+  font-weight: unset !important;
+  transition-delay: unset !important;
+}
+
+.Homebtn:hover:before {
+  transition-delay: unset !important;
+}
+
+.Homebtn:hover:after {
+  background: unset !important;
+  transition-delay: unset !important;
+}
+
+
+.Homebtn.selected {
+  /* background-color: rgb(255, 255, 255) !important; */
+  font-weight: bold !important;
+  color: black !important;
+ 
+}
+
+/* Add the selected class to selected buttons */
+.Homebtn.selected:hover {
+  color:  black!important;
+  transition-delay: unset !important;
+  /* background-color: ; Change background color on hover */
+}
+
+
+
+
 }
 
 @media (max-width: 600px) {
