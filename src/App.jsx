@@ -6,7 +6,7 @@ import "./css/base.css";
 import "./css/embla.css";
 import "./css/sandbox.css";
 import "./css/reponsive.css";
-import "./css/HomeBtn.css";
+import "./css/homeBtn.css";
 
 const OPTIONS = { align: "start", dragFree: false, loop: true };
 const SLIDE_COUNT = 5;
