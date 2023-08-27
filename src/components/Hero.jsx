@@ -19,7 +19,6 @@ function Hero() {
           paddingRight: "180px",
           marginLeft: "100px",
           marginRight: "600px",
-          background: "transparent",
           background:
             "linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%,rgba(0,0,0,1) 60%,#212325 100%)",
         }}
