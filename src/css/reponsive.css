@@ -81,6 +81,14 @@
     text-align: center !important;
   }
 
+}
+
+@media (max-width: 600px) {
+  .mainTitle {
+    margin-right: unset !important;
+  }
+
+  
   .embla__slide__pfp{
     width: 100px !important;
     height: 100px !important;
@@ -88,11 +96,5 @@
   .embla__slide__name{
     font-size: 2rem !important;
     letter-spacing: 0.1rem !important;
-  }
-}
-
-@media (max-width: 600px) {
-  .mainTitle {
-    margin-right: unset !important;
   }
 }
