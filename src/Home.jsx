@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Tattooist from "./tattooistProfile.json";
 import Nav from "./components/Nav.jsx";
+import Masonry from 'react-masonry-css'
 
 import "./css/HomeBtn.css";
 
@@ -145,6 +146,14 @@ function Home() {
     // Clean up the event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+
+  const breakpointColumnsObj = {
+    default: 2,
+    1100: 2,
+    700: 2,
+    500: 1
+  };
 
   return (
     <>
@@ -529,6 +538,12 @@ function Home() {
                     overflowY: "auto",
                   }}
                 >
+                  <Masonry
+
+                    breakpointCols={breakpointColumnsObj}
+                    className="my-masonry-grid"
+                    columnClassName="my-masonry-grid_column"
+                  >
                   {getTattooistWork(selectedArtist.id).map(
                     (workImage, index) => (
                       <img
@@ -537,13 +552,14 @@ function Home() {
                         src={workImage}
                         alt={`work-${index}`}
                         style={{
-                          width: "200px",
-                          height: "200px",
-                          margin: "10px",
+                          // width: "200px",
+                          // height: "200px",
+                          // margin: "10px",
                         }}
                       />
                     )
                   )}
+                  </Masonry>
                 </div>
               </div>
             </>
