@@ -794,6 +794,97 @@
                 "five": "imgs/tattoos/uncogrim5.jpg"
             }
         ]
+    },
+    {
+        "id": "28",
+        "name": "tattooist_judas",
+        "pfp": "imgs/pfp/tattooist_judas.jpg",
+        "link": "https://www.instagram.com/tattooist_judas/",
+        "tags": [{
+            "two": "Korean",
+            "seven": "Sleeve",
+            "ten": "Abstract",
+            "eleven": "Realism",
+            "twelve": "Colour"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/tattooist_judas1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/tattooist_judas2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/tattooist_judas3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/tattooist_judas4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/tattooist_judas5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "name": "zo_gang_tattoo",
+        "pfp": "imgs/pfp/zo_gang_tattoo.jpg",
+        "link": "https://www.instagram.com/zo_gang_tattoo/",
+        "tags": [{
+            "two": "Korean",
+            "seven": "Sleeve",
+            "eleven": "Realism",
+            "twelve": "Black and Grey",
+            "thirteen": "Oriental"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/zo_gang_tattoo1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/zo_gang_tattoo2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/zo_gang_tattoo3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/zo_gang_tattoo4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/zo_gang_tattoo5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "name": "daldam__",
+        "pfp": "imgs/pfp/daldam.jpg",
+        "link": "https://www.instagram.com/daldam__/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Small",
+            "three": "Painting",
+            "four": "Panel",
+            "five": "Oriental",
+            "six": "Anime"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/daldam1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/daldam2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/daldam3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/daldam4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/daldam5.jpg"
+            }
+        ]
     }
 
 ]
