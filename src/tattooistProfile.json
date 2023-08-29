@@ -92,7 +92,6 @@
         "pfp": "imgs/pfp/law.jpg",
         "link": "https://www.instagram.com/lawxtattoo/",
         "tags": [{
-            "one": "Black and Grey",
             "two": "Korean",
             "four": "Realism",
             "five": "Protrait"
@@ -120,7 +119,6 @@
         "pfp": "imgs/pfp/zara.jpg",
         "link": "https://www.instagram.com/zara__tt_/",
         "tags": [{
-            "one": "Black and Grey",
             "two": "Korean",
             "four": "Realism",
             "five": "Protrait"
@@ -176,7 +174,6 @@
         "pfp": "imgs/pfp/noma.jpg",
         "link": "https://www.instagram.com/noma_tattooer/",
         "tags": [{
-            "one": "Black and Grey",
             "two": "London",
             "three": "Microrealism",
             "four": "Abstract"
@@ -207,7 +204,6 @@
             "one": "Oriental",
             "two": "Vancouver",
             "three": "Sleeve",
-            "four": "Black and Grey",
             "five": "Canada"
         }],
         "work": [{
@@ -264,7 +260,6 @@
             "one": "Realism",
             "two": "USA",
             "three": "Protrait",
-            "four": "Black and Grey",
             "five": "Pets"
         }],
         "work": [{
@@ -381,7 +376,6 @@
         "tags": [{
             "one": "Realism",
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Protrait"
         }],
         "work": [{
@@ -437,7 +431,6 @@
         "tags": [{
             "one": "Realism",
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Protrait",
             "six": "Pets",
             "seven": "Vancouver",
@@ -470,7 +463,6 @@
         "tags": [{
             "one": "Microrealism",
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Abstract"
 
         }],
@@ -557,7 +549,6 @@
         "link": "https://www.instagram.com/zittenofart/",
         "tags": [{
             "two": "Korean",
-            "four": "Black and Grey",
             "five": "Sleeve",
             "six": "Floral"
 
@@ -586,7 +577,6 @@
         "link": "https://www.instagram.com/mammon_black/",
         "tags": [{
             "two": "Korean",
-            "four": "Black and Grey",
             "five": "Sketch",
             "six": "Sleeve",
             "seven": "Blackwork"
@@ -616,7 +606,6 @@
         "link": "https://www.instagram.com/mukart.blackandgray/",
         "tags": [{
             "two": "Korean",
-            "four": "Black and Grey",
             "five": "Realism",
             "six": "Sleeve",
             "seven": "Vancouver",
@@ -647,8 +636,8 @@
         "link": "https://www.instagram.com/bk_tattooer/",
         "tags": [{
             "two": "Korean",
-            "four": "Black and Grey",
-            "five": "Sketch"
+            "five": "Sketch",
+            "six": "Abstract"
 
         }],
         "work": [{
@@ -675,7 +664,6 @@
         "link": "https://www.instagram.com/mabi_tattooer/",
         "tags": [{
             "two": "Korean",
-            "four": "Black and Grey",
             "five": "Realism",
             "seven": "Protrait"
 
@@ -769,8 +757,7 @@
             "two": "Korean",
             "five": "Oriental",
             "seven": "Sleeve",
-            "ten": "Abstract",
-            "eleven": "Black and Grey"
+            "ten": "Abstract"
 
         }],
         "work": [{
@@ -829,7 +816,6 @@
             "two": "Korean",
             "seven": "Sleeve",
             "eleven": "Realism",
-            "twelve": "Black and Grey",
             "thirteen": "Oriental"
 
         }],
@@ -974,7 +960,6 @@
         "link": "https://www.instagram.com/tattooer_intat/",
         "tags": [{
             "one": "Korean",
-            "two": "Black and Grey",
             "four": "Fineline",
             "five": "Abstract"
 
@@ -1003,7 +988,6 @@
         "link": "https://www.instagram.com/even_gmt.ink/",
         "tags": [{
             "one": "Korean",
-            "two": "Black and Grey",
             "five": "Abstract",
             "six": "Sleeve",
             "seven": "Microrealism"
@@ -1094,8 +1078,7 @@
             "one": "Canada",
             "two": "Realism",
             "five": "Korean",
-            "seven": "Sleeve",
-            "eight": "Black and Grey"
+            "seven": "Sleeve"
 
         }],
         "work": [{
