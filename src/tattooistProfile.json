@@ -181,7 +181,8 @@
         "tags": [{
             "one": "Black and Grey",
             "two": "London",
-            "three": "Microrealism"
+            "three": "Microrealism",
+            "four": "Abstract"
         }],
         "work": [{
                 "one": "imgs/tattoos/noma1.jpg"
@@ -475,7 +476,8 @@
         "tags": [{
             "one": "Microrealism",
             "two": "Sleeve",
-            "four": "Black and Grey"
+            "four": "Black and Grey",
+            "five": "Abstract"
 
         }],
         "work": [{
@@ -883,6 +885,151 @@
             },
             {
                 "five": "imgs/tattoos/daldam5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "name": "yam.vitor",
+        "pfp": "imgs/pfp/yam.jpg",
+        "link": "https://www.instagram.com/yam.vitor/",
+        "tags": [{
+            "one": "South American",
+            "two": "Blackwork",
+            "three": "Abstract"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/yam1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/yam2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/yam3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/yam4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/yam5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "name": "tattooist_mate",
+        "pfp": "imgs/pfp/tattooist_mate.jpg",
+        "link": "https://www.instagram.com/tattooist_mate/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Blackwork",
+            "three": "Oriental",
+            "four": "Brushwork"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/tattooist_mate1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/tattooist_mate2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/tattooist_mate3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/tattooist_mate4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/tattooist_mate5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "name": "sixtenism",
+        "pfp": "imgs/pfp/sixtenism.jpg",
+        "link": "https://www.instagram.com/sixtenism/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Floral",
+            "four": "Blackwork",
+            "five": "Abstract"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/sixtenism1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/sixtenism2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/sixtenism3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/sixtenism4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/sixtenism5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "name": "tattooer_intat",
+        "pfp": "imgs/pfp/tattooer_intat.jpg",
+        "link": "https://www.instagram.com/tattooer_intat/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Black and Grey",
+            "four": "Fineline",
+            "five": "Abstract"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/tattooer_intat1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/tattooer_intat2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/tattooer_intat3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/tattooer_intat4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/tattooer_intat5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "name": "even_gmt",
+        "pfp": "imgs/pfp/even_gmt.jpg",
+        "link": "https://www.instagram.com/even_gmt.ink/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Black and Grey",
+            "five": "Abstract",
+            "six": "Sleeve",
+            "seven": "Microrealism"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/even_gmt1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/even_gmt2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/even_gmt3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/even_gmt4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/even_gmt5.jpg"
             }
         ]
     }
