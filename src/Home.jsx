@@ -229,7 +229,8 @@ function Home() {
             color: "white",
           }}
         >
-          {/* <div
+          <div
+            className="HomeTagsFilterTitle"
             style={{
               fontSize: "3rem",
               textAlign: "center",
@@ -238,7 +239,7 @@ function Home() {
             }}
           >
             Filter by Tags
-          </div> */}
+          </div>
           <ul style={{}}>
             <li key="Favourite">
               <button
