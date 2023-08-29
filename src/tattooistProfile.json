@@ -35,7 +35,6 @@
         "tags": [{
             "two": "Korean",
             "six": "Negative Space",
-            "seven": "Black and Grey",
             "eight": "Blackwork",
             "nine": "Abstract"
         }],
@@ -149,10 +148,8 @@
         "pfp": "imgs/pfp/atiful.jpg",
         "link": "https://www.instagram.com/ati.ful/",
         "tags": [{
-            "one": "Black and Grey",
             "two": "Korean",
             "three": "Brushwork",
-            "four": "Realism",
             "five": "Oriental",
             "six": "Painting"
         }],
@@ -296,7 +293,7 @@
             "one": "Canada",
             "two": "Sleeve",
             "three": "Colour",
-            "four": "Black and Grey",
+            "four": "Blackwork",
             "five": "Oriental"
         }],
         "work": [{
@@ -324,7 +321,6 @@
         "tags": [{
             "one": "Austrailia",
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Oriental",
             "six": "Brushwork",
             "seven": "Blackwork"
@@ -354,7 +350,6 @@
         "tags": [{
             "one": "Korean",
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Colour",
             "six": "Oriental",
             "seven": "Blackwork",
@@ -414,7 +409,6 @@
         "tags": [{
             "one": "Realism",
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Protrait",
             "six": "Colour"
         }],
@@ -504,7 +498,6 @@
         "link": "https://www.instagram.com/tattooist_tinco/",
         "tags": [{
             "two": "Sleeve",
-            "four": "Black and Grey",
             "five": "Blackwork",
             "six": "Korean"
 
@@ -1030,6 +1023,154 @@
             },
             {
                 "five": "imgs/tattoos/even_gmt5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "name": "blxcoxttt",
+        "pfp": "imgs/pfp/blxcoxttt.jpg",
+        "link": "https://www.instagram.com/blxcoxttt/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Blackwork",
+            "five": "Abstract",
+            "seven": "Oriental"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/blxcoxttt1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/blxcoxttt2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/blxcoxttt3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/blxcoxttt4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/blxcoxttt5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "name": "sera.tattoo",
+        "pfp": "imgs/pfp/sera.jpg",
+        "link": "https://www.instagram.com/sera.tattoo/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Fineline",
+            "five": "Anime",
+            "seven": "Small",
+            "eight": "Floral"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/sera1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/sera2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/sera3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/sera4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/sera5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "name": "uk_bng.tt",
+        "pfp": "imgs/pfp/uk_bng.jpg",
+        "link": "https://www.instagram.com/uk_bng.tt/",
+        "tags": [{
+            "one": "Canada",
+            "two": "Realism",
+            "five": "Korean",
+            "seven": "Sleeve",
+            "eight": "Black and Grey"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/uk_bng1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/uk_bng2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/uk_bng3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/uk_bng4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/uk_bng5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "name": "spendlovejosh",
+        "pfp": "imgs/pfp/spendlovejosh.jpg",
+        "link": "https://www.instagram.com/spendlovejosh/",
+        "tags": [{
+            "one": "Australia",
+            "two": "Anime",
+            "five": "Blackwork",
+            "seven": "Sleeve"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/spendlovejosh1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/spendlovejosh2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/spendlovejosh3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/spendlovejosh4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/spendlovejosh5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "name": "gody_tattoo",
+        "pfp": "imgs/pfp/gody_tattoo.jpg",
+        "link": "https://www.instagram.com/gody_tattoo/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Realism",
+            "five": "Protrait",
+            "seven": "Sleeve",
+            "eight": "Colour"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/gody_tattoo1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/gody_tattoo2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/gody_tattoo3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/gody_tattoo4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/gody_tattoo5.jpg"
             }
         ]
     }
