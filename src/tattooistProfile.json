@@ -1300,6 +1300,147 @@
                 "five": "imgs/tattoos/pyo_ink5.jpg"
             }
         ]
+    },
+    {
+        "id": "46",
+        "name": "bartektattoo",
+        "pfp": "imgs/pfp/bartektattoo.jpg",
+        "link": "https://www.instagram.com/bartektattoo/",
+        "tags": [{
+            "one": "European",
+            "two": "Microrealism",
+            "three": "Abstract"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/bartektattoo1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/bartektattoo2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/bartektattoo3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/bartektattoo4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/bartektattoo5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "name": "ceez_tattoo",
+        "pfp": "imgs/pfp/ceez_tattoo.jpg",
+        "link": "https://www.instagram.com/ceez_tattoo/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Floral",
+            "three": "Colour"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/ceez_tattoo1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/ceez_tattoo2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/ceez_tattoo3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/ceez_tattoo4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/ceez_tattoo5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "name": "nabiiiya_",
+        "pfp": "imgs/pfp/nabiiiya_.jpg",
+        "link": "https://www.instagram.com/nabiiiya_/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Floral",
+            "three": "Colour",
+            "four": "Oriental"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/nabiiiya_1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/nabiiiya_2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/nabiiiya_3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/nabiiiya_4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/nabiiiya_5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "name": "tattooist_kimria",
+        "pfp": "imgs/pfp/tattooist_kimria.jpg",
+        "link": "https://www.instagram.com/tattooist_kimria/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Pets",
+            "three": "Realism"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/tattooist_kimria1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/tattooist_kimria2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/tattooist_kimria3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/tattooist_kimria4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/tattooist_kimria5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "name": "think_tatt",
+        "pfp": "imgs/pfp/think_tatt.jpg",
+        "link": "https://www.instagram.com/think_tatt/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Oriental",
+            "three": "Abstract"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/think_tatt1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/think_tatt2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/think_tatt3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/think_tatt4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/think_tatt5.jpg"
+            }
+        ]
     }
 
 ]
