@@ -288,7 +288,6 @@
             "one": "Canada",
             "two": "Sleeve",
             "three": "Colour",
-            "four": "Blackwork",
             "five": "Oriental"
         }],
         "work": [{
@@ -1106,7 +1105,6 @@
         "tags": [{
             "one": "Australia",
             "two": "Anime",
-            "five": "Blackwork",
             "seven": "Sleeve"
 
         }],
@@ -1154,6 +1152,152 @@
             },
             {
                 "five": "imgs/tattoos/gody_tattoo5.jpg"
+            }
+        ]
+    }, 
+    {
+        "id": "41",
+        "name": "mykefeng",
+        "pfp": "imgs/pfp/mykefeng.jpg",
+        "link": "https://www.instagram.com/mykefeng/",
+        "tags": [{
+            "one": "Vancouver",
+            "two": "Canada",
+            "five": "Sleeve",
+            "seven": "Oriental"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/mykefeng1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/mykefeng2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/mykefeng3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/mykefeng4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/mykefeng5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "name": "suba_tattoo",
+        "pfp": "imgs/pfp/suba_tattoo.jpg",
+        "link": "https://www.instagram.com/suba_tattoo/",
+        "tags": [{
+            "one": "European",
+            "two": "Blackwork",
+            "five": "Anime",
+            "seven": "Abstract",
+            "eight": "Colour"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/suba_tattoo1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/suba_tattoo2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/suba_tattoo3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/suba_tattoo4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/suba_tattoo5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "name": "xuruitattoo",
+        "pfp": "imgs/pfp/xuruitattoo.jpg",
+        "link": "https://www.instagram.com/xuruitattoo/",
+        "tags": [{
+            "one": "China",
+            "two": "Sleeve",
+            "five": "Oriental",
+            "eight": "Colour"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/xuruitattoo1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/xuruitattoo2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/xuruitattoo3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/xuruitattoo4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/xuruitattoo5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "name": "jiang_tattooer",
+        "pfp": "imgs/pfp/jiang_tattooer.jpg",
+        "link": "https://www.instagram.com/jiang_tattooer/",
+        "tags": [{
+            "one": "USA",
+            "two": "Sleeve",
+            "five": "Oriental",
+            "eight": "Painting"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/jiang_tattooer1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/jiang_tattooer2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/jiang_tattooer3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/jiang_tattooer4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/jiang_tattooer5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "name": "pyo_ink",
+        "pfp": "imgs/pfp/pyo_ink.jpg",
+        "link": "https://www.instagram.com/pyo_ink/",
+        "tags": [{
+            "one": "Korean",
+            "two": "Sleeve",
+            "five": "Oriental",
+            "eight": "Abstract"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/pyo_ink1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/pyo_ink2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/pyo_ink3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/pyo_ink4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/pyo_ink5.jpg"
             }
         ]
     }
