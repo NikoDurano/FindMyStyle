@@ -129,17 +129,15 @@
 
 
 .Homebtn.selected {
-  /* background-color: rgb(255, 255, 255) !important; */
   font-weight: bold !important;
   color: black !important;
  
 }
-
 /* Add the selected class to selected buttons */
 .Homebtn.selected:hover {
   color:  black!important;
   transition-delay: unset !important;
-  /* background-color: ; Change background color on hover */
+
 }
 
 

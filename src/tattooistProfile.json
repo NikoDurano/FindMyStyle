@@ -33,11 +33,11 @@
         "pfp": "imgs/pfp/dante.jpg",
         "link": "https://www.instagram.com/reverse_de_dante/",
         "tags": [{
-            "one": "Patchwork",
             "two": "Korean",
             "six": "Negative Space",
             "seven": "Black and Grey",
-            "eight": "Blackwork"
+            "eight": "Blackwork",
+            "nine": "Abstract"
         }],
         "work": [{
                 "one": "imgs/tattoos/blackwork.jpg"
@@ -66,7 +66,7 @@
             "two": "Korean",
             "three": "Realism",
             "five": "Pets",
-            "six": "small",
+            "six": "Small",
             "seven": "Colour",
             "eight": "Painting"
         }],
@@ -356,7 +356,8 @@
             "four": "Black and Grey",
             "five": "Colour",
             "six": "Oriental",
-            "seven": "Blackwork"
+            "seven": "Blackwork",
+            "eight": "Abstract"
         }],
         "work": [{
                 "one": "imgs/tattoos/taena1.jpg"
@@ -444,7 +445,8 @@
             "five": "Protrait",
             "six": "Pets",
             "seven": "Vancouver",
-            "eight": "Canada"
+            "eight": "Canada",
+            "nine": "Floral"
 
         }],
         "work": [{
@@ -489,6 +491,125 @@
             },
             {
                 "five": "imgs/tattoos/wm5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "tattooist_tinco",
+        "pfp": "imgs/pfp/tinco.jpg",
+        "link": "https://www.instagram.com/tattooist_tinco/",
+        "tags": [{
+            "two": "Sleeve",
+            "four": "Black and Grey",
+            "five": "Blackwork",
+            "six": "Korean"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/tinco1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/tinco2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/tinco3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/tinco4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/tinco5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "inkflow_franky",
+        "pfp": "imgs/pfp/franky.jpg",
+        "link": "https://www.instagram.com/inkflow_franky/",
+        "tags": [{
+            "two": "Colour",
+            "four": "Cover Up",
+            "five": "Small",
+            "six": "China",
+            "seven": "Panel",
+            "eight": "Painting"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/franky1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/franky2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/franky3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/franky4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/franky5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "zittenofart",
+        "pfp": "imgs/pfp/zitten.jpg",
+        "link": "https://www.instagram.com/zittenofart/",
+        "tags": [{
+            "two": "Korean",
+            "four": "Black and Grey",
+            "five": "Sleeve",
+            "six": "Floral"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/zitten1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/zitten2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/zitten3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/zitten4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/zitten5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "name": "mammom_black",
+        "pfp": "imgs/pfp/mammon.jpg",
+        "link": "https://www.instagram.com/mammon_black/",
+        "tags": [{
+            "two": "Korean",
+            "four": "Black and Grey",
+            "five": "Abstract",
+            "six": "Sleeve",
+            "seven": "Blackwork"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/mammon1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/mammon2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/mammon3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/mammon4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/mammon5.jpg"
             }
         ]
     }
