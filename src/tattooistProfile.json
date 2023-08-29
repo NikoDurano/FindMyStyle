@@ -357,7 +357,8 @@
             "five": "Colour",
             "six": "Oriental",
             "seven": "Blackwork",
-            "eight": "Abstract"
+            "eight": "Abstract",
+            "nine": "Floral"
         }],
         "work": [{
                 "one": "imgs/tattoos/taena1.jpg"
@@ -591,7 +592,7 @@
         "tags": [{
             "two": "Korean",
             "four": "Black and Grey",
-            "five": "Abstract",
+            "five": "Sketch",
             "six": "Sleeve",
             "seven": "Blackwork"
 
@@ -610,6 +611,187 @@
             },
             {
                 "five": "imgs/tattoos/mammon5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "name": "mukart.blackandgray",
+        "pfp": "imgs/pfp/mukart.jpg",
+        "link": "https://www.instagram.com/mukart.blackandgray/",
+        "tags": [{
+            "two": "Korean",
+            "four": "Black and Grey",
+            "five": "Realism",
+            "six": "Sleeve",
+            "seven": "Vancouver",
+            "eight": "Canada"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/mukart1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/mukart2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/mukart3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/mukart4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/mukart5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "name": "bk_tattooer",
+        "pfp": "imgs/pfp/bk.jpg",
+        "link": "https://www.instagram.com/bk_tattooer/",
+        "tags": [{
+            "two": "Korean",
+            "four": "Black and Grey",
+            "five": "Sketch"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/bk1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/bk2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/bk3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/bk4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/bk5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "name": "mabi_tattooer",
+        "pfp": "imgs/pfp/mabi.jpg",
+        "link": "https://www.instagram.com/mabi_tattooer/",
+        "tags": [{
+            "two": "Korean",
+            "four": "Black and Grey",
+            "five": "Realism",
+            "seven": "Protrait"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/mabi1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/mabi2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/mabi3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/mabi4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/mabi5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "name": "oozy_tattoo",
+        "pfp": "imgs/pfp/oozy.jpg",
+        "link": "https://www.instagram.com/oozy_tattoo/",
+        "tags": [{
+            "two": "USA",
+            "five": "Oriental",
+            "six": "Colour",
+            "seven": "Sleeve",
+            "eight": "Anime"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/oozy1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/oozy2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/oozy3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/oozy4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/oozy5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "name": "bgxgrim",
+        "pfp": "imgs/pfp/bgxgrim.jpg",
+        "link": "https://www.instagram.com/bgxgrim/",
+        "tags": [{
+            "two": "Korean",
+            "five": "Oriental",
+            "six": "Brushwork",
+            "seven": "Sleeve",
+            "eight": "Blackout",
+            "nine": "Cover Up",
+            "ten": "Abstract",
+            "eleven": "Blackwork"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/bgxgrim1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/bgxgrim2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/bgxgrim3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/bgxgrim4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/bgxgrim5.jpg"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "name": "uncogrim",
+        "pfp": "imgs/pfp/uncogrim.jpg",
+        "link": "https://www.instagram.com/uncogrim/",
+        "tags": [{
+            "two": "Korean",
+            "five": "Oriental",
+            "seven": "Sleeve",
+            "ten": "Abstract",
+            "eleven": "Black and Grey"
+
+        }],
+        "work": [{
+                "one": "imgs/tattoos/uncogrim1.jpg"
+            },
+            {
+                "two": "imgs/tattoos/uncogrim2.jpg"
+            },
+            {
+                "three": "imgs/tattoos/uncogrim3.jpg"
+            },
+            {
+                "four": "imgs/tattoos/uncogrim4.jpg"
+            },
+            {
+                "five": "imgs/tattoos/uncogrim5.jpg"
             }
         ]
     }
