@@ -259,7 +259,7 @@ function Home() {
                     selectedTags.includes(tag) ? "selected" : ""
                   }`}
                   onClick={() => handleTagSelection(tag)}
-                  disabled={selectedTags.includes("Favourite")}
+                  disabled={selectedTags.includes("Favourite") || !showFilter}
                 >
                   {tag}
                 </button>
