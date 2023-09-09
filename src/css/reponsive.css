@@ -52,6 +52,7 @@
     justify-content: center !important;
     margin-top: unset !important;
     padding: unset !important;
+    height: 200% !important;
   }
   .HomeTagsFilterTitle{
     display: none !important;

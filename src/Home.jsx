@@ -281,7 +281,7 @@ function Home() {
             padding: "20px",
             overflowY: "auto",
             flexGrow: "1",
-            height: "200%",
+    
           }}
         >
           {sortedFilteredTattooists.length === 0 ? (
